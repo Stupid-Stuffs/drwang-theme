@@ -312,7 +312,7 @@
         "heading": "Common questions",
         "heading_size": "h1",
         "heading_alignment": "left",
-        "layout": "row",
+        "layout": "none",
         "color_scheme": "",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
