@@ -1,10 +1,12 @@
 {
-    "sections": {
-        "our-story-page": {
-            "type": "our-story-page"
-        }
-    },
-    "order": [
-        "our-story-page"
-    ]
+  "sections": {
+    "our-story-page": {
+      "type": "our-story-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "our-story-page"
+  ]
 }

@@ -1,10 +1,12 @@
 {
-    "sections": {
-        "review-page": {
-            "type": "review-page"
-        }
-    },
-    "order": [
-        "review-page"
-    ]
+  "sections": {
+    "review-page": {
+      "type": "review-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "review-page"
+  ]
 }

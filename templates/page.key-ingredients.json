@@ -1,43 +1,47 @@
 {
-    "sections": {
-        "ingredient": {
-            "type": "ingredient-page"
-        },
-        "slider": {
-          "type": "image-slider",
-          "blocks": {
-            "slide_ANxH4U": {
-              "type": "slide",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/post-6.webp",
-                "heading": "Image slide"
-              }
-            },
-            "slide_A6F8QD": {
-              "type": "slide",
-              "settings": {
-                "heading": "Image slide"
-              }
-            }
-          },
-          "block_order": [
-            "slide_ANxH4U",
-            "slide_A6F8QD"
-          ]
-        },
-        "custom_liquid": {
-          "type": "custom-liquid",
+  "sections": {
+    "ingredient": {
+      "type": "ingredient-page",
+      "settings": {
+      }
+    },
+    "slider": {
+      "type": "image-slider",
+      "blocks": {
+        "slide_ANxH4U": {
+          "type": "slide",
           "settings": {
-            "custom_liquid": "{% render 'ingredient-info' %}",
-            "color_scheme": "",
-            "padding_top": 0,
-            "padding_bottom":0  
+            "image": "shopify:\/\/shop_images\/post-6.webp",
+            "heading": "Image slide"
+          }
+        },
+        "slide_A6F8QD": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide"
           }
         }
-    }, 
-    "order": [
-        "ingredient",
-        "slider",
-        "custom_liquid"
-    ]
+      },
+      "block_order": [
+        "slide_ANxH4U",
+        "slide_A6F8QD"
+      ],
+      "settings": {
+      }
+    },
+    "custom_liquid": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'ingredient-info' %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "ingredient",
+    "slider",
+    "custom_liquid"
+  ]
 }
