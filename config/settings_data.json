@@ -1,9 +1,9 @@
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/logo.jpg",
+    "logo_width": 120,
     "body_scale": 100,
     "page_width": 1800,
-    "logo_width": 120,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -132,6 +132,15 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "733389323033596483": {
+        "type": "shopify:\/\/apps\/okendo\/blocks\/theme-settings\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "disabled": false,
+        "settings": {
+          "show_preview_data": true
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
