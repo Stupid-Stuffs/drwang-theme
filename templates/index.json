@@ -1,0 +1,414 @@
+{
+  "sections": {
+      "slideshow_Ejxijn": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_ANxH4U": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/post-6.webp",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_A6F8QD": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ANxH4U",
+        "slide_A6F8QD"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multicolumn_zYLgrm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_rAg9gL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fbf73f8efe1447688650c0a0f8414820.thumbnail.0000000000.webp",
+            "title": "Real Sufferers",
+            "text": "<p>We feel your pain. Endless creams, chemicals, and sleepless nights. But what if relief wasn't on a shelf, but in nature? Dr. Wang harnesses plant power for gentle eczema relief, for you and your little warrior. Whether you're a parent seeking comfort for your little one or an adult warrior battling eczema yourself, Dr. Wang is here to help you find peace and healthy skin.<\/p>",
+            "link_label": "Real people",
+            "link": "#"
+          }
+        },
+        "column_BBcki3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thumb-2.webp",
+            "title": "Nature-based essence",
+            "text": "<p>Kid-safe, soothing for skin<\/p>",
+            "link_label": "Ingredients",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "column_rAg9gL",
+        "column_BBcki3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+      "multirow_Tfae7j": {
+      "type": "multirow",
+      "blocks": {
+        "row_8KDGNb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/row-3.webp",
+            "caption": "",
+            "heading": "Safe for littles",
+            "text": "<p>We aim to ensure that our product is gentle enough for even our youngest users to safely use TOHME. Our goal is to remain as gentle yet effective as possible.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_KxMkwG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/row-4.webp",
+            "caption": "",
+            "heading": "FREE SHIPPING",
+            "text": "<p>on orders of <em>three</em> jars or more<\/p>",
+            "button_label": "Buy today",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "row_8KDGNb",
+        "row_KxMkwG"
+      ],
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "heading_size": "h0",
+        "text_style": "subtitle",
+        "button_style": "secondary",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_2": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/col-1.jpg",
+            "title": "Secrets from Tropical Forest",
+            "text": "<p>Extracted from more than 20 healing plants in Tropical Forest<\/p>",
+            "link_label": "Real people",
+            "link": "#"
+          }
+        },
+        "column_2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/col-2.webp",
+            "title": "Nature-based essence",
+            "text": "<p>Kid-safe, soothing for skin<\/p>",
+            "link_label": "Ingredients",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "column_1",
+        "column_2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+      "featured_product_dGptRF": {
+      "type": "featured-product",
+      "blocks": {
+        "text_Hijw7n": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_mGAYya": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_g6FtHX": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_7xgkcG": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_MKHxN3": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_6kpPcR": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_BY4GdT": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_Hijw7n",
+        "title_mGAYya",
+        "price_g6FtHX",
+        "variant_picker_7xgkcG",
+        "quantity_selector_MKHxN3",
+        "buy_buttons_6kpPcR",
+        "share_BY4GdT"
+      ],
+      "settings": {
+        "product": "classic-varsity-top",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_VHHdjf": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_LMbYdB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "<p>ssfdfd<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6Y7AWT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_BKkFXQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_rx9tHg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_LMbYdB",
+        "collapsible_row_6Y7AWT",
+        "collapsible_row_BKkFXQ",
+        "collapsible_row_rx9tHg"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Common questions",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "row",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_YCAzLz": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<widgetic id=\"660943faecb2a1ea048b4567\" resize=\"fill-width\" width=\"787\" height=\"492\" autoscale=\"on\" adaptive=\"414\"><\/widgetic>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom":0  
+      }
+    },
+      "image_with_text_fBtj7P": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_En97xB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who we are",
+            "heading_size": "h1"
+          }
+        },
+        "text_PPij8i": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're a tight knit family, committed to standing with eczema sufferers. We've poured our heart's into our natural Sea Moss soothing cream. Made with utmost care and no harmful chemicals, we stand by our honesty and integrity in helping those with eczema. Experience the difference firsthand.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_YbGgfB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_En97xB",
+        "text_PPij8i",
+        "button_YbGgfB"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "image": "shopify:\/\/shop_images\/our.webp",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+        "featured_blog_BqAM4L": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slidex": {
+        "type": "swiper"
+        }
+  },
+  "order": [
+    "slideshow_Ejxijn",
+    "multicolumn_zYLgrm",
+    "multirow_Tfae7j",
+    "multicolumn_2",
+    "featured_product_dGptRF",
+    "collapsible_content_VHHdjf",
+    "custom_liquid_YCAzLz",
+        "image_with_text_fBtj7P",
+        "featured_blog_BqAM4L",
+        "slidex"
+  ]
+}

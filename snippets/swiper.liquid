@@ -1,0 +1,158 @@
+{% comment %} Write a section using swiper library to show the product feature {% endcomment %}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+ <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+          />
+
+{%- style -%}
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .swiper-slide {
+      background-size: cover;
+      background-position: center;
+    }
+
+    .mySwiper2 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .mySwiper {
+      box-sizing: border-box;
+      padding: 10px 0;
+      .swiper-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+      width: 100px;
+      }
+
+
+    .mySwiper .swiper-slide {
+      width: 100px !important;
+      height: 100px !important;
+      opacity: 0.4;
+    }
+
+    .mySwiper .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .slider-wrapper {
+        display: flex;
+        gap: 2rem;
+    }
+{%- endstyle -%}
+
+<div class="slider-wrapper">
+  <div thumbsSlider="" class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        {% for image in product.images limit: 5 %}
+            <div class="swiper-slide">
+                <img src="{{ image.src | img_url: 'master' }}" />
+            </div>
+        {% endfor %}
+         <div>
+      <a data-fancybox="gallery" href="https://lipsum.app/id/60/1600x1200">
+        <img src="https://lipsum.app/id/60/200x150" width="200" height="150" alt="" />
+      </a>
+
+      <div style="display:none">
+        <a data-fancybox="gallery" href="https://lipsum.app/id/61/1600x1200">
+          <img src="https://lipsum.app/id/61/120x80" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/62/1600x1200">
+          <img src="https://lipsum.app/id/62/120x80" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/63/1600x1200">
+          <img src="https://lipsum.app/id/63/120x80" />
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+<div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+    <div class="swiper-wrapper">
+        {% for image in product.images %}
+            <div class="swiper-slide">
+                <img src="{{ image.src | img_url: 'master' }}" />
+            </div>
+        {% endfor %}
+    </div>
+    <div class="swiper-button-next">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path
+            fill-rule="evenodd"
+            d="M10.707 3.293a1 1 0 0 1 1.414 1.414L8.414 10l3.707 3.707a1 1 0 1 1-1.414 1.414l-4-4a1 1 0 0 1 0-1.414l4-4a1 1 0 0 1 0 1.414z"
+            />
+        </svg>
+    </div>
+    <div class="swiper-button-prev">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path
+            fill-rule="evenodd"
+            d="M9.293 16.707a1 1 0 0 1-1.414-1.414L11.586 10 7.293 6.293a1 1 0 1 1 1.414-1.414l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414 0z"
+            />
+        </svg>
+    </div>
+  </div>
+</div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        //
+      });    
+    </script>

@@ -1,0 +1,105 @@
+{
+  "sections": {
+      "featured_product_dGptRF": {
+      "type": "featured-product",
+      "blocks": {
+        "text_Hijw7n": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_mGAYya": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_g6FtHX": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_7xgkcG": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_MKHxN3": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_6kpPcR": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_BY4GdT": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_Hijw7n",
+        "title_mGAYya",
+        "price_g6FtHX",
+        "variant_picker_7xgkcG",
+        "quantity_selector_MKHxN3",
+        "buy_buttons_6kpPcR",
+        "share_BY4GdT"
+      ],
+      "settings": {
+        "product": "classic-varsity-top",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'product-detail' %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom":0  
+      }
+    },
+        "1711946153b1791d14": {
+      "type": "apps",
+      "blocks": {
+        "okendo_star_rating_7Hbhej": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "black-leather-bag"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_star_rating_7Hbhej"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+        "featured_product_dGptRF",
+        "custom_liquid","1711946153b1791d14"
+  ]
+}
