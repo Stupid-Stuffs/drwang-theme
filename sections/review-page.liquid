@@ -1,0 +1,59 @@
+{%- style %}
+.ingredient-page {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    h2 {
+        font-size: 2em;
+        color: #333;
+    }
+    h3 {
+        font-size: 1.5em;
+        color: #666;
+    }
+    .section-1 {
+        padding: 2rem;
+        text-align: center;
+        position: relative;
+        img {
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+            height: 600px;
+            object-fit: cover;
+            object-position: top;
+            z-index: 1;
+        }
+        .text {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-25%);
+            z-index: 2;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: -50px;
+            h2 {
+                margin: 0;
+                font-size: 3rem;
+                font-weight: bold;
+            }
+            h3 {
+                margin: 0;
+                font-size: 2rem;
+                font-weight: light;
+            }
+        }
+    }
+}
+{%- endstyle %}
+<div class="ingredient-page page-width">
+    <article class="section-1">
+        <img src="https://healedbytheocean.com/cdn/shop/files/preview_images/928365c64aa2460daee2e91a5a063d8c.thumbnail.0000000000.jpg" alt="test"/>
+        <div class="text">
+            <h2> Our soothing secret? </h2>
+            <h3> so many good things </h3>
+        </div>
+    </article>
+</div>

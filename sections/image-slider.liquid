@@ -1,0 +1,85 @@
+<div class="page-width">
+{% render "slider",
+    slides: section.blocks
+%}
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.image-slider.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "t:sections.image-slider.blocks.slide.name",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.image-slider.blocks.slide.settings.image.label"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Image slide",
+          "label": "t:sections.image-slider.blocks.slide.settings.heading.label"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "subheading",
+          "default": "Tell your brand's story through images",
+          "label": "t:sections.image-slider.blocks.slide.settings.subheading.label"
+        },
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "t:sections.all.colors.label",
+          "default": "scheme-1"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.image-slider.settings.mobile.content"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment_mobile",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.image-slider.blocks.slide.settings.text_alignment_mobile.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.image-slider.blocks.slide.settings.text_alignment_mobile.options__2.label"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.image-slider.blocks.slide.settings.text_alignment_mobile.options__3.label"
+            }
+          ],
+          "default": "center",
+          "label": "t:sections.image-slider.blocks.slide.settings.text_alignment_mobile.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.image-slider.presets.name",
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

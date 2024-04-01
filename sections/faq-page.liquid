@@ -1,0 +1,60 @@
+{%- style %}
+.faq-page {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    h2 {
+        font-size: 2em;
+        color: #333;
+    }
+    h3 {
+        font-size: 1.5em;
+        color: #666;
+    }
+    .section-1 {
+        padding: 2rem;
+        text-align: center;
+        position: relative;
+        img {
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+            height: 600px;
+            object-fit: cover;
+            object-position: top;
+            z-index: 1;
+        }
+        .text {
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-25%);
+            z-index: 2;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: -50px;
+            h2 {
+                margin: 0;
+                font-size: 5rem;
+            color: #f1f1f1;
+            font-weight: bold;
+            }
+            h3 {
+                margin: 0;
+                font-size: 5rem;
+                font-weight: light;
+            color: #f1f1f1;
+            }
+        }
+    }
+}
+{%- endstyle %}
+<div class="faq-page page-width">
+    <article class="section-1">
+        <img src="https://healedbytheocean.com/cdn/shop/files/A5D4053A-6CFA-4FF3-9CB4-3F9DA9A7175D.jpg?crop=center&height=530&v=1689122599&width=700" alt="test"/>
+        <div class="text">
+            <h2> We have answer </h2>
+        </div>
+    </article>
+</div>

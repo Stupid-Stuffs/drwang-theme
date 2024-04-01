@@ -1,0 +1,77 @@
+{%- style %}
+.ingredient-page {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    h2 {
+        font-size: 2em;
+        color: #333;
+    }
+    h3 {
+        font-size: 1.5em;
+        color: #666;
+    }
+    .section-1 {
+        padding: 2rem;
+        text-align: center;
+        position: relative;
+        img {
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+            height: 300px;
+            object-fit: cover;
+            object-position: top;
+            z-index: 1;
+        }
+        .text {
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-25%);
+            z-index: 2;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: -50px;
+            h2 {
+                margin: 0;
+                font-size: 5rem;
+            color: #f1f1f1;
+            font-weight: bold;
+            }
+            h3 {
+                margin: 0;
+                font-size: 5rem;
+                font-weight: light;
+            color: #f1f1f1;
+            }
+        }
+    }
+    .section-2 {
+        padding: 2rem;
+        h2 {
+            font-size: 5rem;
+            font-weight: bold;
+        }
+        p {
+            font-size: 2rem;
+            font-weight: light
+        }
+    }
+}
+{%- endstyle %}
+<div class="ingredient-page page-width">
+    <article class="section-1">
+        <img src="https://healedbytheocean.com/cdn/shop/files/preview_images/3c3939fadfc442a5951996d0819be7ab.thumbnail.0000000000.jpg" alt="test"/>
+        <div class="text">
+            <h2> Our soothing secret? </h2>
+            <h3> so many good things </h3>
+        </div>
+    </article>
+    <article class="section-2">
+        <h2>Natural ingredients</h2>
+        <p>.01</p>
+        <p>Experience the magic of our sea moss restorative cream for eczema. Now made with 9 powerful, key ingredients, we believe in calming eczema<em><strong> naturally</strong><em> and <strong><em>effectively</em></strong></p>
+    </article>
+</div>
