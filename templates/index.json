@@ -314,7 +314,7 @@
     "custom_liquid_YCAzLz": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<widgetic id=\"660943faecb2a1ea048b4567\" resize=\"fill-width\" width=\"787\" height=\"492\" autoscale=\"on\" adaptive=\"414\"><\/widgetic>",
+        "custom_liquid": "{% render 'beforeandnow' %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0,
