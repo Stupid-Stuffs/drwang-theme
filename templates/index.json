@@ -57,7 +57,7 @@
     "image-with-text": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% render 'image-with-text', image: 'https://healedbytheocean.com/cdn/shop/files/preview_images/417f72664a2f4a859edbcd68e19ae437.thumbnail.0000000000.jpg?v=1710547265', title: 'Healing properties of nature', description: 'It is not a miracle cure, it is a gentle touch from nature.', button: 'Try today'   %}",
+        "custom_liquid": "{% render 'image-with-text', image: 'https://healedbytheocean.com/cdn/shop/files/preview_images/417f72664a2f4a859edbcd68e19ae437.thumbnail.0000000000.jpg?v=1710547265', title: 'Healing properties of nature', description: 'It is not a miracle, it is a gentle touch from the nature.', button: 'Try today'   %}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
