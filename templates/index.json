@@ -116,8 +116,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/row-3.webp",
             "caption": "",
-            "heading": "Safe for littles",
-            "text": "<p>We aim to ensure that our product is gentle enough for even our youngest users to safely use TOHME. Our goal is to remain as gentle yet effective as possible.<\/p>",
+            "heading": "Made with Love, Safe for All or Made with love for littles",
+            "text": "<p> We understand the importance of gentle care, especially for little ones. That's why our formula uses only the highest quality ingredients, ensuring it's safe and effective for even the most sensitive skin.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -162,7 +162,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/col-1.jpg",
             "title": "Secrets from Tropical Forest",
-            "text": "<p>Extracted from more than 20 healing plants in Tropical Forest<\/p>",
+            "text": "<p>Extracts from over 20 tropical plants, rich in a diverse range of vitamins and minerals, help soothe and nourish the skin. The formula's intense hydration locks in moisture, promoting a healthy, hydrated complexion. This innovative approach, inspired by the secrets of the Tropical Forest, helps restore and maintain healthy, balanced skin.<\/p>",
             "link_label": "Real people",
             "link": "#"
           }
@@ -171,8 +171,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/col-2.webp",
-            "title": "Nature-based essence",
-            "text": "<p>Kid-safe, soothing for skin<\/p>",
+            "title": "Over 20 Tropical Plants",
+            "text": "<p>Quickly calms itching, swelling, and redness, while its gentle formula soothes and hydrates dry skin. Offers long-lasting protection against future flare-ups by strengthening the skin's barrier.<\/p>",
             "link_label": "Ingredients",
             "link": "#"
           }
@@ -276,45 +276,25 @@
         "collapsible_row_LMbYdB": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "<p>ssfdfd<\/p>",
+            "heading": "Is Dr. Wang's cream safe for children with eczema?",
+            "icon": "",
+            "row_content": "<p>Yes! Dr. Wang's cream is formulated specifically to be gentle and soothing for eczema sufferers of all ages, including children! When we developed our cream, we prioritized the needs of <strong> itchy babies </strong> and those with sensitive skin. We believe everyone deserves relief from eczema, regardless of age.  Dr. Wang's cream is free of harsh chemicals and toxins, and packed with natural ingredients that are kind to even the most delicate skin. <a href='/pages/key-ingredients'>Check out our key ingredients list for more info.</a>  <\/p>",
             "page": ""
           }
         },
         "collapsible_row_6Y7AWT": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_BKkFXQ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_rx9tHg": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How long does it take for Dr. Wang's cream to work?",
+            "icon": "",
+            "row_content": "<p>Generally, you can expect to see results after 7-10 days of continuous daily application. Most users find that 2 tubes of Dr. Wang Derma 150g are sufficient to clear up a flare-up. It's important to be consistent with your application and to follow the instructions carefully. Remember that everyone's skin is different, so results may vary. However, many people have found Dr. Wang's cream to be an effective and gentle way to soothe and heal eczema-prone skin. </p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "collapsible_row_LMbYdB",
-        "collapsible_row_6Y7AWT",
-        "collapsible_row_BKkFXQ",
-        "collapsible_row_rx9tHg"
+        "collapsible_row_6Y7AWT"
       ],
       "settings": {
         "caption": "",
@@ -337,7 +317,8 @@
         "custom_liquid": "<widgetic id=\"660943faecb2a1ea048b4567\" resize=\"fill-width\" width=\"787\" height=\"492\" autoscale=\"on\" adaptive=\"414\"><\/widgetic>",
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "height": 75 
       }
     },
     "image_with_text_fBtj7P": {

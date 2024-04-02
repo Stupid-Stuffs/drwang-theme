@@ -201,12 +201,37 @@
 
 .multicolumn-card__info {
   position: absolute;
-  top: 2.5rem;
-  left: 2.5rem;
+  top: 6rem;
+    margin: 0 auto;
+  left: 50%;
+    transform: translateX(-50%);
+  width: 80ch;
+    z-index: 20;
+    max-width: 100%;
+  text-align: left;
+    p {
+        font-size: 3rem;
+        font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+        font-family: Georgia Pro, serif;
+        line-height: 1.5;
+    }
+}
+.multicolumn-card__overlay {
+    position: absolute;
+    width: calc(100% - 3rem);
+    height: 100%;
+    top: 0;
+    left: 1.5rem;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 .multicolumn-card__info .inline-richtext {
-    font-size: 3.6rem;
+    font-size: 9rem;
+    margin: 2rem 0;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1;
 }
 
 .multicolumn-card > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {
@@ -223,6 +248,10 @@
   text-decoration: none;
   font-size: inherit;
   margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    font-family: Georgia Pro, serif;
 }
 
 .multicolumn-card__info .icon-wrap {
