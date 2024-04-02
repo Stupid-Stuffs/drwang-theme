@@ -54,6 +54,15 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "image-with-text": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'image-with-text', image: 'https://healedbytheocean.com/cdn/shop/files/preview_images/417f72664a2f4a859edbcd68e19ae437.thumbnail.0000000000.jpg?v=1710547265', title: 'Healing properties of nature', description: 'It is not a miracle cure, it is a gentle touch from nature.', button: 'Try today'   %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn_zYLgrm": {
       "type": "multicolumn",
       "blocks": {
@@ -398,6 +407,7 @@
   },
   "order": [
     "slideshow_Ejxijn",
+    "image-with-text",
     "multicolumn_zYLgrm",
     "multirow_Tfae7j",
     "multicolumn_2",
