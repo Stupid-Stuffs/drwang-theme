@@ -321,51 +321,15 @@
         "height": 75 
       }
     },
-    "image_with_text_fBtj7P": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_En97xB": {
-          "type": "heading",
-          "settings": {
-            "heading": "Who we are",
-            "heading_size": "h1"
-          }
-        },
-        "text_PPij8i": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We're a tight knit family, committed to standing with eczema sufferers. We've poured our heart's into our natural Sea Moss soothing cream. Made with utmost care and no harmful chemicals, we stand by our honesty and integrity in helping those with eczema. Experience the difference firsthand.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_YbGgfB": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_En97xB",
-        "text_PPij8i",
-        "button_YbGgfB"
-      ],
+    "whoweare": {
+      "type": "whoweare",
       "settings": {
         "image": "shopify:\/\/shop_images\/our.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "Who we are",
+        "description": "<p>Dr. Wang Herbal Skincare is a family-owned business that was founded by Dr. Steven Wang, a board-certified dermatologist. Dr. Wang has dedicated his life to helping people find relief from eczema and other skin conditions. He believes in the power of nature and has spent years researching and developing a formula that harnesses the healing properties of plants. Dr. Wang's cream is the result of his passion and dedication to helping others find peace and comfort in their skin.<\/p>",
+        "link1": "#",
+        "link2": "#",
+        "link3": "#"
       }
     },
     "featured_blog_BqAM4L": {
@@ -395,7 +359,7 @@
     "featured_product_dGptRF",
     "collapsible_content_VHHdjf",
     "custom_liquid_YCAzLz",
-    "image_with_text_fBtj7P",
+    "whoweare",
     "featured_blog_BqAM4L"
   ]
 }

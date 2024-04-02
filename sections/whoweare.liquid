@@ -1,0 +1,190 @@
+{%- style -%}
+    .whoweare {
+        margin: 5rem 0;
+      .whoweare-wrapper {
+        display: flex;
+        background: #f9f9f9;
+        flex-direction: column;
+        .image-wrapper {
+            div {
+                width: 100%;
+                height: 0;
+                padding-top: 100%;
+                position: relative;
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        } 
+        }
+        .whoweare__text{
+        height: 100%;
+        padding: 2rem;
+            h3{
+                font-size: 3rem;
+                font-weight: 700;
+                margin: 0;
+            }
+            p {
+                font-size: 1.5rem;
+                font-family: Georgia Pro, 'Times New Roman', Times, serif;
+                line-height: 1.5;
+            }
+        }
+            a {
+                font-size: 1.5rem;
+                display: block;
+                font-weight: 500;
+                &:hover {
+                    text-decoration: none;
+                }
+                svg {
+                    margin-right: 1.5rem;
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+            }
+    }  
+    @media (min-width: 750px){
+    .whoweare {
+        .whoweare-wrapper {
+            flex-direction: row;
+            .image-wrapper {
+                width: 50%;
+            }
+        }
+        .whoweare__text{
+        padding: 3rem;
+            width: 50%;
+            h3{
+                font-size: 4rem;
+                font-weight: 700;
+            }
+            p {
+                font-size: 1.75rem;
+                font-family: Georgia Pro, 'Times New Roman', Times, serif;
+                line-height: 1.5;
+            }
+            a {
+                font-size: 1.5rem;
+                svg {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+        }
+    }
+    }
+    @media (min-width: 1200px){
+    .whoweare {
+        .whoweare__text{
+            h3{
+                font-size: 5rem;
+                font-weight: 700;
+            }
+            p {
+                font-size: 2rem;
+                font-family: Georgia Pro, 'Times New Roman', Times, serif;
+                line-height: 1.5;
+            }
+            a {
+                font-size: 2rem;
+                svg {
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+        }
+        }
+    }
+{%- endstyle -%}
+<article class="whoweare page-width">
+    <div class="whoweare-wrapper">
+        <div class="image-wrapper">
+            <div>
+              {{
+                section.settings.image
+                | image_url: width: 1500
+                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+              }}
+            </div>
+        </div>
+        <div class="whoweare__text">
+            <h3>{{section.settings.title}}</h3>
+            <p>{{section.settings.description}}</p>
+            <a href="{{section.settings.link1}}">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+</svg>
+
+            Our mission</a>
+            <a href="{{section.settings.link2}}">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+</svg>
+            Meet our founder</a>
+            <a href="{{section.settings.link3}}">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+</svg>
+            Tell your story Receive free goodies</a>
+        </div>
+    </div>
+</article>
+
+{%- schema -%}
+{
+    "name": "Who we are",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description"
+        },
+        {
+            "type": "url",
+            "id": "link1",
+            "label": "Link 1"
+        },
+        {
+            "type": "url",
+            "id": "link2",
+            "label": "Link 2"
+        },
+        {
+            "type": "url",
+            "id": "link3",
+            "label": "Link 3"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Who we are",
+            "category": "Who we are",
+            "settings": {
+                "image": "",
+                "title": "Who we are",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, eleifend nunc. Sed in purus nec augue mollis suscipit. Sed nec ultrices ipsum. Nam sit amet semper odio. Nullam vel eros sit amet arcu vestibulum accumsan in in leo. Nullam sed porta libero. Nullam nec purus ut felis aliquam tincidunt. Nullam auctor, nisl nec euismod aliquet, mi mauris laoreet sem, sit amet lacinia mauris sem sit amet nunc. Donec auctor, libero at accumsan auctor, libero eros porttitor nunc, nec lacinia lacus metus a libero. Donec auctor, libero at accumsan auctor, libero eros porttitor nunc, nec lacinia lacus metus a libero.",
+                "link1": "https://www.google.com",
+                "link2": "https://www.google.com",
+                "link3": "https://www.google.com"
+            }
+        }
+    ]
+}
+{%- endschema -%}
+
