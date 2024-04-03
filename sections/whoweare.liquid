@@ -82,24 +82,38 @@
     @media (min-width: 1200px){
     .whoweare {
         .whoweare__text{
+            padding: 4rem;
             h3{
-                font-size: 5rem;
+                font-size: 7rem;
                 font-weight: 700;
             }
             p {
-                font-size: 2rem;
+                font-size: 3rem;
                 font-family: Georgia Pro, 'Times New Roman', Times, serif;
+                font-weight: 500;
                 line-height: 1.5;
             }
             a {
-                font-size: 2rem;
+                font-size: 3rem;
+            color: rgba(0,0,0,0.4);
+                font-weight: 600;
                 svg {
-                    width: 2rem;
-                    height: 2rem;
+                    width: 3rem;
+                    height: 3rem;
                 }
             }
         }
         }
+    }
+    .whoweare-background {
+        background: #d3d3d3; 
+        background-size: cover;
+        height: 50%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
     }
 {%- endstyle -%}
 <article class="whoweare page-width">
@@ -118,19 +132,19 @@
             <p>{{section.settings.description}}</p>
             <a href="{{section.settings.link1}}">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-</svg>
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
 
             Our mission</a>
             <a href="{{section.settings.link2}}">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-</svg>
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
             Meet our founder</a>
             <a href="{{section.settings.link3}}">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-</svg>
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
             Tell your story Receive free goodies</a>
         </div>
     </div>

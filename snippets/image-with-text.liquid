@@ -1,6 +1,8 @@
 {%- style %}
     .image-with-text-custom {
-        position: relative;
+        .wrapper {
+            position: relative;
+        }
         margin-top: 5rem;
         img {
             width: 100%;
@@ -8,7 +10,7 @@
             object-fit: cover;
             object-position: top;
         }
-        div.wrapper {
+        div.text-wrapper {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
@@ -52,8 +54,8 @@
             .image-width-text__text {
                 width: 100ch;
             }
-            div.wrapper {
-            right: 7rem;
+            div.text-wrapper {
+            right: 5rem;
                 h2 {
                     font-size: 4rem;
                 }
@@ -73,9 +75,9 @@
             height: 600px;
         }
             .image-width-text__text {
-                width: 100ch;
+                width: 120ch;
             }
-            div.wrapper {
+            div.text-wrapper {
             right: 7rem;
                 h2 {
                     font-size: 5rem;
@@ -91,12 +93,14 @@
 }
 {%- endstyle %}
 <div class="image-with-text-custom page-width">
-    <img src="{{ image }}" alt="{{ alt }}" />
     <div class="wrapper">
+    <img src="{{ image }}" alt="{{ alt }}" />
+    <div class="text-wrapper">
         <div class="image-width-text__text">
             <h2>{{ title }}</h2>
             <h3>{{ description }}</h3>
         </div>
         <a class="button button--secondary" href="#">{{ button }}</a>
+    </div>
     </div>
 </div>
