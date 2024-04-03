@@ -57,10 +57,11 @@
     "image-with-text": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% render 'image-with-text', image: 'https://healedbytheocean.com/cdn/shop/files/preview_images/417f72664a2f4a859edbcd68e19ae437.thumbnail.0000000000.jpg?v=1710547265', title: 'Healing properties of nature', description: 'It is not a miracle, it is a gentle touch from the nature.', button: 'Try today'   %}",
+        "custom_liquid": "{% render 'image-with-text', image: 'https:\/\/healedbytheocean.com\/cdn\/shop\/files\/preview_images\/417f72664a2f4a859edbcd68e19ae437.thumbnail.0000000000.jpg?v=1710547265', title: 'Nature-based cream for Eczema', description: 'It's not a miracle, it's just a gentle touch from the nature.', button: 'Try today'   %}",
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "height": 100
       }
     },
     "multicolumn_zYLgrm": {
@@ -116,8 +117,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/row-3.webp",
             "caption": "",
-            "heading": "Made with Love, Safe for All or Made with love for littles",
-            "text": "<p> We understand the importance of gentle care, especially for little ones. That's why our formula uses only the highest quality ingredients, ensuring it's safe and effective for even the most sensitive skin.<\/p>",
+            "heading": "Made with love for the littles",
+            "text": "<p>We understand the importance of gentle care, especially for little ones. That's why our formula uses only the highest quality ingredients, ensuring it's safe and effective for even the most sensitive skin.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -278,7 +279,7 @@
           "settings": {
             "heading": "Is Dr. Wang's cream safe for children with eczema?",
             "icon": "",
-            "row_content": "<p>Yes! Dr. Wang's cream is formulated specifically to be gentle and soothing for eczema sufferers of all ages, including children! When we developed our cream, we prioritized the needs of <strong> itchy babies </strong> and those with sensitive skin. We believe everyone deserves relief from eczema, regardless of age.  Dr. Wang's cream is free of harsh chemicals and toxins, and packed with natural ingredients that are kind to even the most delicate skin. <a href='/pages/key-ingredients'>Check out our key ingredients list for more info.</a>  <\/p>",
+            "row_content": "<p>Yes! Dr. Wang's cream is formulated specifically to be gentle and soothing for eczema sufferers of all ages, including children! When we developed our cream, we prioritized the needs of <strong> itchy babies <\/strong> and those with sensitive skin. We believe everyone deserves relief from eczema, regardless of age.  Dr. Wang's cream is free of harsh chemicals and toxins, and packed with natural ingredients that are kind to even the most delicate skin. <a href='\/pages\/key-ingredients'>Check out our key ingredients list for more info.<\/a>  <\/p>",
             "page": ""
           }
         },
@@ -287,7 +288,7 @@
           "settings": {
             "heading": "How long does it take for Dr. Wang's cream to work?",
             "icon": "",
-            "row_content": "<p>Generally, you can expect to see results after 7-10 days of continuous daily application. Most users find that 2 tubes of Dr. Wang Derma 150g are sufficient to clear up a flare-up. It's important to be consistent with your application and to follow the instructions carefully. Remember that everyone's skin is different, so results may vary. However, many people have found Dr. Wang's cream to be an effective and gentle way to soothe and heal eczema-prone skin. </p>",
+            "row_content": "<p>Generally, you can expect to see results after 7-10 days of continuous daily application. Most users find that 2 tubes of Dr. Wang Derma 150g are sufficient to clear up a flare-up. It's important to be consistent with your application and to follow the instructions carefully. Remember that everyone's skin is different, so results may vary. However, many people have found Dr. Wang's cream to be an effective and gentle way to soothe and heal eczema-prone skin. <\/p>",
             "page": ""
           }
         }
@@ -318,7 +319,7 @@
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0,
-        "height": 75 
+        "height": 75
       }
     },
     "whoweare": {
