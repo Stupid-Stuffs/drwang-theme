@@ -1,0 +1,136 @@
+
+{%- style %}
+    .image-with-text-custom {
+        .wrapper {
+            position: relative;
+        }
+        margin-top: 5rem;
+        img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+            object-position: top;
+        }
+        div.text-wrapper {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: white;
+            right: 3rem;
+            text-align: right;
+            .image-width-text__text {
+               max-width: 80%;
+               margin-left: auto;
+            }
+            h2 {
+                font-size: 3rem;
+                color: white;
+                margin-bottom: 0.5rem;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin: 0;
+            }
+            h3 {
+                font-size: 3rem;
+                margin: 0;
+                color: white;
+                font-family: Georgia Pro, serif;
+            }
+            a {
+                margin-top: 2rem;
+                padding: 2.5rem;
+                font-weight: 600;
+                display: inline-block;
+                text-align: center;
+                width: calc(100% - 3rem);
+                font-size: 2rem;
+            }
+        }
+        }
+    @media (min-width: 750px){
+        .image-with-text-custom {
+           img {
+                height: 500px;
+            }
+            .image-width-text__text {
+                width: 100ch;
+            }
+            div.text-wrapper {
+            right: 5rem;
+                h2 {
+                    font-size: 4rem;
+                }
+                h3 {
+                    font-size: 4rem;
+                }
+                a {
+                    font-size: 2rem;
+                    width: 200px;
+                }
+            }
+            }
+
+    @media (min-width: 1200px){
+        .image-with-text-custom {
+        img{
+            height: 600px;
+        }
+            .image-width-text__text {
+                width: 120ch;
+            }
+            div.text-wrapper {
+            right: 7rem;
+                h2 {
+                    font-size: 5rem;
+                }
+                h3 {
+                    font-size: 5rem;
+                }
+                a {
+                    font-size: 2.5rem;
+                }
+        }
+    }
+}
+{%- endstyle %}
+<div class="image-with-text-custom page-width">
+    <div class="wrapper">
+    <img src="{{ image }}" alt="{{ title }}" />
+    <div class="text-wrapper">
+        <div class="image-width-text__text">
+            <h2>{{ title }}</h2>
+            <h3>{{ description }}</h3>
+        </div>
+        <a class="button button--secondary" href="#">{{ button }}</a>
+    </div>
+    </div>
+</div>
+
+{%- schema -%}
+	{
+	    "name": "Image with text",
+	    "settings": [
+		{
+		    "type": "image_picker",
+		    "id": "image",
+		    "label": "Image"
+		},
+		{
+		    "type": "text",
+		    "id": "title",
+		    "label": "Title"
+		},
+		{
+		    "type": "text",
+		    "id": "description",
+		    "label": "Description"
+		},
+		{
+		    "type": "text",
+		    "id": "button",
+		    "label": "Button text"
+		}
+	    ]
+	}
+{%- endschema -%}
+

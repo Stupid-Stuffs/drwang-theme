@@ -55,13 +55,8 @@
       }
     },
     "image-with-text": {
-      "type": "custom-liquid",
+      "type": "image-with-text-custom",
       "settings": {
-        "custom_liquid": "{% render 'image-with-text', image: 'https:\/\/healedbytheocean.com\/cdn\/shop\/files\/preview_images\/417f72664a2f4a859edbcd68e19ae437.thumbnail.0000000000.jpg?v=1710547265', title: 'Nature-based cream for Eczema', description: \"It's not a miracle, it's just a gentle touch from the nature.\", button: 'Try today'   %}",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "height": 100
       }
     },
     "multicolumn_zYLgrm": {
