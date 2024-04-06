@@ -73,6 +73,9 @@
         "column_rAg9gL",
         "column_BBcki3"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -107,10 +110,10 @@
         "row_8KDGNb": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8.webp",
+            "image": "shopify:\/\/shop_images\/3-2.webp",
             "caption": "",
             "heading": "<strong>FREE SHIPPING<\/strong>",
-            "text": "<p>on order three tubes or mỏe <\/p><p>For all US orders <\/p>",
+            "text": "<p>on order three tubes or more<\/p><p>For all US orders <\/p>",
             "button_label": "Buy today",
             "button_link": "shopify:\/\/pages\/buy-now"
           }
