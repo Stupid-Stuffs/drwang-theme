@@ -9,6 +9,16 @@
     "slider": {
       "type": "image-slider",
       "blocks": {
+        "slide_4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L-MENTHOL_B_c_ha_-1.webp",
+            "heading": "L-MENTHOL",
+            "subheading": "Cooling",
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_1": {
           "type": "slide",
           "settings": {
@@ -39,16 +49,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_4": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/L-MENTHOL_B_c_ha_-1.webp",
-            "heading": "L-MENTHOL",
-            "subheading": "Cooling",
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_5": {
           "type": "slide",
           "settings": {
@@ -61,10 +61,10 @@
         }
       },
       "block_order": [
+        "slide_4",
         "slide_1",
         "slide_2",
         "slide_3",
-        "slide_4",
         "slide_5"
       ],
       "settings": {
