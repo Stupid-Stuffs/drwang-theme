@@ -73,6 +73,7 @@
     },
     "custom_liquid": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "{% render 'product-detail' %}",
         "color_scheme": "",
