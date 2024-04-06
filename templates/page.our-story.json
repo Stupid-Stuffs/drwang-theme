@@ -2,7 +2,23 @@
   "sections": {
     "our-story-page": {
       "type": "our-story-page",
+      "blocks": {
+        "text_YgHEDy": {
+          "type": "text",
+          "settings": {
+            "text": "Hi, my name is Amy, founder of Dr.Wang Derma. My son Jimmy was born with a constant companion – eczema. Tiny, angry patches marred his soft skin, and the relentless itch stole his peace. The sight of his little hands scratching raw, leaving trails of tears and blood, etched itself onto my soul."
+          }
+        }
+      },
+      "block_order": [
+        "text_YgHEDy"
+      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/2-1.webp",
+        "heading": "Our story",
+        "subheading": "",
+        "title": "From Desperate Mama to Eczema Fighter - A 10,000km Journey Far From hHme",
+        "background_color": ""
       }
     }
   },
