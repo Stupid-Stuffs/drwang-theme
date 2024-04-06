@@ -3,7 +3,7 @@
         padding: 5rem;
     }
     .ingredient-info .content {
-        background: #bacae5;
+    background: {{section.settings.background}};
         padding: 5rem;
         h2 {
             font-size: 4rem;
@@ -47,7 +47,13 @@
 	    "id": "description",
 	    "label": "Description",
 	    "default": "Description"
-	}
+	    },
+    {
+	"type": "color",
+	"id": "background",
+	"label": "Background",
+	"default": "#f4f4f4"
+    }
     ]
 }
 {%- endschema -%}
