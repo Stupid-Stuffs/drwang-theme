@@ -61,7 +61,7 @@
         "column_BBcki3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5.webp",
+            "image": "shopify:\/\/shop_images\/2.webp",
             "title": "Nature-based essence",
             "text": "<p>Kid-safe, soothing for skin<\/p>",
             "link_label": "Ingredients",
@@ -296,7 +296,7 @@
         "share_BY4GdT"
       ],
       "settings": {
-        "product": "classic-varsity-top",
+        "product": "dr-wang",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "medium",
