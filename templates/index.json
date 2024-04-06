@@ -39,6 +39,10 @@
     "image-with-text": {
       "type": "image-with-text-custom",
       "settings": {
+        "image": "shopify:\/\/shop_images\/1.png",
+        "title": "Nature-based cream for Eczema",
+        "description": "It's not a miracle, it's just a gentle touch from nature.",
+        "button": "Try now"
       }
     },
     "multicolumn_zYLgrm": {
