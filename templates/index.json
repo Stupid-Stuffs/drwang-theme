@@ -39,7 +39,7 @@
     "image-with-text": {
       "type": "image-with-text-custom",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1.png",
+        "image": "shopify:\/\/shop_images\/3-1.webp",
         "title": "Nature-based cream for Eczema",
         "description": "It's not a miracle, it's just a gentle touch from nature.",
         "button": "Try now"
@@ -53,9 +53,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/fbf73f8efe1447688650c0a0f8414820.thumbnail.0000000000.webp",
             "title": "Real Sufferers",
-            "text": "<p>We feel your pain. Endless creams, chemicals, and sleepless nights. But what if relief wasn't on a shelf, but in nature? Dr. Wang harnesses plant power for gentle eczema relief, for you and your little warrior. Whether you're a parent seeking comfort for your little one or an adult warrior battling eczema yourself, Dr. Wang is here to help you find peace and healthy skin.<\/p>",
+            "text": "<p>You and I, we’re all fighting the same battle. Endless creams, chemicals, and sleepless nights. But what if the relief wasn't on a shelf, but hidden within a deep tropical forest? Dr.Wang believes in the power of nature. Whether you're a parent seeking comfort for your little one or a warrior battling eczema yourself, we are here to help you find that long gone peace skin.<\/p>",
             "link_label": "Real people",
-            "link": "#"
+            "link": "shopify:\/\/pages\/reviews"
           }
         },
         "column_BBcki3": {
@@ -65,7 +65,7 @@
             "title": "Nature-based essence",
             "text": "<p>Kid-safe, soothing for skin<\/p>",
             "link_label": "Ingredients",
-            "link": "#"
+            "link": "shopify:\/\/pages\/key-ingredients"
           }
         }
       },
@@ -93,30 +93,42 @@
     "multirow_Tfae7j": {
       "type": "multirow",
       "blocks": {
+        "row_gKGgnA": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3-1.webp",
+            "caption": "",
+            "heading": "1.000 TUBES SOLD",
+            "text": "",
+            "button_label": "Buy today",
+            "button_link": "shopify:\/\/pages\/buy-now"
+          }
+        },
         "row_8KDGNb": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/row-3.webp",
+            "image": "shopify:\/\/shop_images\/8.webp",
             "caption": "",
-            "heading": "Made with love for the littles",
-            "text": "<p>We understand the importance of gentle care, especially for little ones. That's why our formula uses only the highest quality ingredients, ensuring it's safe and effective for even the most sensitive skin.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "heading": "<strong>FREE SHIPPING<\/strong>",
+            "text": "<p>on order three tubes or mỏe <\/p><p>For all US orders <\/p>",
+            "button_label": "Buy today",
+            "button_link": "shopify:\/\/pages\/buy-now"
           }
         },
         "row_KxMkwG": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/row-4.webp",
+            "image": "shopify:\/\/shop_images\/4.webp",
             "caption": "",
-            "heading": "FREE SHIPPING",
-            "text": "<p>on orders of <em>three<\/em> jars or more<\/p>",
+            "heading": "<strong>Satisfaction<\/strong>",
+            "text": "<p>guaranteed, or your money back!<\/p><p>Risk-free purchase<\/p>",
             "button_label": "Buy today",
-            "button_link": "#"
+            "button_link": "shopify:\/\/pages\/buy-now"
           }
         }
       },
       "block_order": [
+        "row_gKGgnA",
         "row_8KDGNb",
         "row_KxMkwG"
       ],
