@@ -79,8 +79,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/3-1.webp",
             "caption": "",
-            "heading": "1.000 TUBES SOLD",
-            "text": "",
+            "heading": "1,307 TUBES SOLD",
+            "text": "<p>To US Customers<\/p>",
             "button_label": "Buy today",
             "button_link": "shopify:\/\/pages\/buy-now"
           }
@@ -91,7 +91,7 @@
             "image": "shopify:\/\/shop_images\/3-2.webp",
             "caption": "",
             "heading": "<strong>FREE SHIPPING<\/strong>",
-            "text": "<p>on order three tubes or more<\/p><p>For all US orders <\/p>",
+            "text": "<p>On Three Tubes Or More<\/p><p>50 States Included<\/p>",
             "button_label": "Buy today",
             "button_link": "shopify:\/\/pages\/buy-now"
           }
@@ -101,8 +101,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/4.webp",
             "caption": "",
-            "heading": "<strong>Satisfaction<\/strong>",
-            "text": "<p>guaranteed, or your money back!<\/p><p>Risk-free purchase<\/p>",
+            "heading": "Risk-free purchase",
+            "text": "<p>guaranteed, or your money back!<\/p>",
             "button_label": "Buy today",
             "button_link": "shopify:\/\/pages\/buy-now"
           }
@@ -180,9 +180,9 @@
         "row_JVEYUF": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7.webp",
+            "image": "shopify:\/\/shop_images\/edi-libedinsky-1bhp9zBPHVE-unsplash.jpg",
             "caption": "",
-            "heading": "<strong>Made with love for the littles. <\/strong>",
+            "heading": "<strong>Made with love for our littles<\/strong>",
             "text": "<p>Our commitment to quality starts with carefully sourced, high-grade ingredients. This ensures our cream is gentle enough for all ages while remaining powerful in its ability to soothe and heal.<\/p>",
             "button_label": "",
             "button_link": "shopify:\/\/pages\/buy-now"
