@@ -13,7 +13,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Is Dr. Wang's cream safe for children with eczema?",
-            "icon": "check_mark",
+            "icon": "pepper",
             "row_content": "<p>Yes! Dr. Wang's cream is formulated specifically to be gentle and soothing for eczema sufferers of all ages, including children!<\/p><p>When we developed our cream, we prioritized the needs of \"itchy babies\" and those with sensitive skin. We believe everyone deserves relief from eczema, regardless of age. Dr. Wang's cream is free of harsh chemicals and toxins, and packed with natural ingredients that are kind to even the most delicate skin. Check out our <a href=\"\/pages\/key-ingredients\" title=\"Key Ingredients\"><strong>key ingredients<\/strong><\/a> list for more info. <\/p>",
             "page": ""
           }
@@ -21,9 +21,9 @@
         "collapsible_row_DNAfdY": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How long does it take for Dr. Wang's cream to work?",
+            "icon": "carrot",
+            "row_content": "<p>Generally, you can expect to see results after 7-10 days of continuous daily application. Most users find that 2 tubes of Dr. Wang Derma 150g are sufficient to clear up a flare-up. It's important to be consistent with your application and to follow the instructions carefully.<\/p><p>Remember that everyone's skin is different, so results may vary. However, many people have found Dr. Wang's cream to be an effective and gentle way to soothe and heal eczema-prone skin.<\/p>",
             "page": ""
           }
         }
