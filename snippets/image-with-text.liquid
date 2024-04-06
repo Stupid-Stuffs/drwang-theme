@@ -94,7 +94,10 @@
 {%- endstyle %}
 <div class="image-with-text-custom page-width">
     <div class="wrapper">
-    <img src="{{ image }}" alt="{{ alt }}" />
+      {{ section.settings.image
+	| image_url: width: 1500
+	| image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+      }}
     <div class="text-wrapper">
         <div class="image-width-text__text">
             <h2>{{ title }}</h2>
