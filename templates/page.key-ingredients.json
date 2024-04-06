@@ -13,7 +13,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/post-6.webp",
             "heading": "Pseudolarix amabilis Rehd",
-            "subheading": "Anti-inflammatory"
+            "subheading": "Anti-inflammatory",
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
         "slide_2": {
@@ -21,7 +23,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/post-6.webp",
             "heading": "Latin Tite",
-            "subheading": "Antibacterial"
+            "subheading": "Antibacterial",
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
         "slide_3": {
@@ -29,7 +33,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/post-6.webp",
             "heading": "Sophora flavescens",
-            "subheading": "Anti-pruritic"
+            "subheading": "Anti-pruritic",
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
         "slide_4": {
@@ -37,7 +43,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/post-6.webp",
             "heading": "L-MENTHOL",
-            "subheading": "Cooling"
+            "subheading": "Cooling",
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
         "slide_5": {
@@ -45,7 +53,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/post-6.webp",
             "heading": "Rhizoma Smilacis Glabrae",
-            "subheading": "Anti-inflammatory"
+            "subheading": "Anti-inflammatory",
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         }
       },
@@ -62,6 +72,9 @@
     "ingredient-info": {
       "type": "ingredient-info",
       "settings": {
+        "title": "Full ingredients list:",
+        "subtitle": "",
+        "description": "Pseudolarix amabilis Rehd, Sophora flavescens, Cnidium monnieri(L.)Cuss, Latin Tite, Wolfpoisom, Cortex Dictamni, Phellodendron Amurense Rupr, Gleditsia sinensis Linn, Typhonium Giganteum, Stemona Tuberosa.Lour, Rhizoma Smilacis Glabrae, Mosla Cavaleriei Lev, Rotunda Thun, L-MENTHOL, Chlorhexidine Acetate, Acid stearic,..."
       }
     }
   },
