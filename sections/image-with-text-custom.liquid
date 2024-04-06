@@ -95,13 +95,13 @@
 {%- endstyle %}
 <div class="image-with-text-custom page-width">
     <div class="wrapper">
-    <img src="{{ image }}" alt="{{ title }}" />
+    <img src="{{ section.settings.image }}" alt="{{ section.settings.title }}" />
     <div class="text-wrapper">
         <div class="image-width-text__text">
-            <h2>{{ title }}</h2>
-            <h3>{{ description }}</h3>
+            <h2>{{ section.settings.title }}</h2>
+            <h3>{{ section.settings.description }}</h3>
         </div>
-        <a class="button button--secondary" href="#">{{ button }}</a>
+        <a class="button button--secondary" href="#">{{ section.settings.button }}</a>
     </div>
     </div>
 </div>
