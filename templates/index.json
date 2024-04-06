@@ -351,27 +351,6 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_YCAzLz": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render 'beforeandnow' %}",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "height": 75
-      }
-    },
-    "whoweare": {
-      "type": "whoweare",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/our.webp",
-        "title": "Who we are",
-        "description": "<p>Dr. Wang Herbal Skincare is a family-owned business that was founded by Dr. Steven Wang, a board-certified dermatologist. Dr. Wang has dedicated his life to helping people find relief from eczema and other skin conditions. He believes in the power of nature and has spent years researching and developing a formula that harnesses the healing properties of plants. Dr. Wang's cream is the result of his passion and dedication to helping others find peace and comfort in their skin.<\/p>",
-        "link1": "#",
-        "link2": "#",
-        "link3": "#"
-      }
-    },
     "featured_blog_BqAM4L": {
       "type": "featured-blog",
       "settings": {
@@ -399,8 +378,6 @@
     "multirow_tz9G4h",
     "featured_product_dGptRF",
     "collapsible_content_VHHdjf",
-    "custom_liquid_YCAzLz",
-    "whoweare",
     "featured_blog_BqAM4L"
   ]
 }
