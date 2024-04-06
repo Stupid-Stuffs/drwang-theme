@@ -57,7 +57,7 @@
         "share_BY4GdT"
       ],
       "settings": {
-        "product": "classic-varsity-top",
+        "product": "dr-wang",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "medium",
@@ -77,7 +77,8 @@
         "custom_liquid": "{% render 'product-detail' %}",
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "height": 100
       }
     },
     "17119489662590023e": {
