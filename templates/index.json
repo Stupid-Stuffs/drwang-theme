@@ -135,21 +135,21 @@
         "column_1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9.webp",
+            "image": "shopify:\/\/shop_images\/david-clode-PteQb2-8rmY-unsplash_1.jpg",
             "title": "Secrets from Tropical Forest",
             "text": "<p>Extracts from over 20 tropical plants, rich in a diverse range of vitamins and minerals, help soothe and nourish the skin. The formula's intense hydration locks in moisture, promoting a healthy, hydrated complexion. This innovative approach, inspired by the secrets of the Tropical Forest, helps restore and maintain healthy, balanced skin.<\/p>",
-            "link_label": "Real people",
-            "link": "#"
+            "link_label": "Learn more",
+            "link": "shopify:\/\/pages\/key-ingredients"
           }
         },
         "column_2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/10.webp",
+            "image": "shopify:\/\/shop_images\/dmitry-novikov-TKjzQKl1e4Y-unsplash_1.jpg",
             "title": "Over 20 Tropical Plants",
             "text": "<p>Quickly calms itching, swelling, and redness, while its gentle formula soothes and hydrates dry skin. Offers long-lasting protection against future flare-ups by strengthening the skin's barrier.<\/p>",
             "link_label": "Ingredients",
-            "link": "#"
+            "link": "shopify:\/\/pages\/key-ingredients"
           }
         }
       },
