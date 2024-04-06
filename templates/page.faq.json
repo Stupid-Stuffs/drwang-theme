@@ -6,37 +6,19 @@
       "settings": {
       }
     },
-    "collapsible_content_wjJdDa": {
+    "collapsible_content_aWWgH6": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_n3BBAf": {
+        "collapsible_row_7AwDMQ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Is Dr. Wang's cream safe for children with eczema?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Yes! Dr. Wang's cream is formulated specifically to be gentle and soothing for eczema sufferers of all ages, including children!<\/p><p>When we developed our cream, we prioritized the needs of \"itchy babies\" and those with sensitive skin. We believe everyone deserves relief from eczema, regardless of age. Dr. Wang's cream is free of harsh chemicals and toxins, and packed with natural ingredients that are kind to even the most delicate skin. Check out our <a href=\"\/pages\/key-ingredients\" title=\"Key Ingredients\"><strong>key ingredients<\/strong><\/a> list for more info. <\/p>",
             "page": ""
           }
         },
-        "collapsible_row_yHELnQ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_6W9zrx": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_W4tB8w": {
+        "collapsible_row_DNAfdY": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
@@ -47,136 +29,12 @@
         }
       },
       "block_order": [
-        "collapsible_row_n3BBAf",
-        "collapsible_row_yHELnQ",
-        "collapsible_row_6W9zrx",
-        "collapsible_row_W4tB8w"
+        "collapsible_row_7AwDMQ",
+        "collapsible_row_DNAfdY"
       ],
       "settings": {
         "caption": "",
-        "heading": "Order",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_CHKhxn": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_EYbpE3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_UTnB8P": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_WfVt6j": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_CeUKBN": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_EYbpE3",
-        "collapsible_row_UTnB8P",
-        "collapsible_row_WfVt6j",
-        "collapsible_row_CeUKBN"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Shipping",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_XD6gCt": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_QAfPwz": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_XDGp6w": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_VjV6kh": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_Gj7Qm7": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_QAfPwz",
-        "collapsible_row_XDGp6w",
-        "collapsible_row_VjV6kh",
-        "collapsible_row_Gj7Qm7"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Product",
+        "heading": "Common Questions",
         "heading_size": "h1",
         "heading_alignment": "left",
         "layout": "none",
@@ -192,8 +50,6 @@
   },
   "order": [
     "faq-page",
-    "collapsible_content_wjJdDa",
-    "collapsible_content_CHKhxn",
-    "collapsible_content_XD6gCt"
+    "collapsible_content_aWWgH6"
   ]
 }
