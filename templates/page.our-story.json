@@ -8,10 +8,52 @@
           "settings": {
             "text": "Hi, my name is Amy, founder of Dr.Wang Derma. My son Jimmy was born with a constant companion – eczema. Tiny, angry patches marred his soft skin, and the relentless itch stole his peace. The sight of his little hands scratching raw, leaving trails of tears and blood, etched itself onto my soul."
           }
+        },
+        "text_w8NJNY": {
+          "type": "text",
+          "settings": {
+            "text": "Doctors prescribed corticosteroids, promising relief. But with each application, Jimmy's skin seemed to thin, leaving me with a gnawing fear. The internet became my desperate battleground, a sea of untested remedies and empty promises. \"Miracle\" creams became a blur, each application a heartbreaking disappointment."
+          }
+        },
+        "text_iMiwRq": {
+          "type": "text",
+          "settings": {
+            "text": "One day, a visit home to Vietnam became a turning point. A dear friend, a brilliant dermatologist, noticed Jimmy's struggle. Her gentle touch, not a prescription pad, offered a glimmer of hope. She introduced us to a soothing ointment, its recipe passed down through generations, its ingredients a secret symphony of nature's bounty."
+          }
+        },
+        "text_F4PR9E": {
+          "type": "text",
+          "settings": {
+            "text": "The transformation was remarkable. The angry patches calmed, the itch subsided, and a radiant smile returned to Jimmy's face. It was a miracle whispered by nature, a gift far more precious than any cream. Relief washed over me, not just for Jimmy's healed skin, but for the mother in me who could finally breathe a sigh of freedom."
+          }
+        },
+        "text_8Uyyhf": {
+          "type": "text",
+          "settings": {
+            "text": "This experience sparked a fire in my heart. I knew if this gift could heal Jimmy, it could heal countless others. That's how [Product Name] was born. It's not just a cream; it's a promise. A promise whispered from a Vietnamese friend, a promise to mothers just like me. We understand the sleepless nights, the worry etched into every crease on your face. We've been there."
+          }
+        },
+        "text_7pMw4A": {
+          "type": "text",
+          "settings": {
+            "text": "This isn't just about soothing eczema; it's about bringing back the smiles, the laughter, the joy stolen by a relentless itch. We want to be your ally in this fight, a hand reaching out to offer comfort and hope."
+          }
+        },
+        "text_DztxNe": {
+          "type": "text",
+          "settings": {
+            "text": "Join us. Let's rewrite the story of eczema, one healed child, one relieved mother at a time. Together, let nature's gentle touch bring peace back to your little one's skin, and back to your heart."
+          }
         }
       },
       "block_order": [
-        "text_YgHEDy"
+        "text_YgHEDy",
+        "text_w8NJNY",
+        "text_iMiwRq",
+        "text_F4PR9E",
+        "text_8Uyyhf",
+        "text_7pMw4A",
+        "text_DztxNe"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2-1.webp",
