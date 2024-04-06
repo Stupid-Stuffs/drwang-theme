@@ -6,7 +6,7 @@
         "slide_ANxH4U": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1.png",
+            "image": "shopify:\/\/shop_images\/post-6.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -39,7 +39,7 @@
     "image-with-text": {
       "type": "image-with-text-custom",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1.png",
+        "image": "shopify:\/\/shop_images\/3-1.webp",
         "title": "Nature-based cream for Eczema",
         "description": "It's not a miracle, it's just a gentle touch from nature.",
         "button": "Try now"
@@ -51,21 +51,21 @@
         "column_rAg9gL": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fbf73f8efe1447688650c0a0f8414820.thumbnail.0000000000.webp",
+            "image": "shopify:\/\/shop_images\/5.webp",
             "title": "Real Sufferers",
-            "text": "<p>We feel your pain. Endless creams, chemicals, and sleepless nights. But what if relief wasn't on a shelf, but in nature? Dr. Wang harnesses plant power for gentle eczema relief, for you and your little warrior. Whether you're a parent seeking comfort for your little one or an adult warrior battling eczema yourself, Dr. Wang is here to help you find peace and healthy skin.<\/p>",
+            "text": "<p>You and I, we’re all fighting the same battle. Endless creams, chemicals, and sleepless nights. But what if the relief wasn't on a shelf, but hidden within a deep tropical forest? Dr.Wang believes in the power of nature. Whether you're a parent seeking comfort for your little one or a warrior battling eczema yourself, we are here to help you find that long gone peace skin.<\/p>",
             "link_label": "Real people",
-            "link": "#"
+            "link": "shopify:\/\/pages\/reviews"
           }
         },
         "column_BBcki3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/thumb-2.webp",
+            "image": "shopify:\/\/shop_images\/5.webp",
             "title": "Nature-based essence",
             "text": "<p>Kid-safe, soothing for skin<\/p>",
             "link_label": "Ingredients",
-            "link": "#"
+            "link": "shopify:\/\/pages\/key-ingredients"
           }
         }
       },
@@ -93,30 +93,42 @@
     "multirow_Tfae7j": {
       "type": "multirow",
       "blocks": {
+        "row_gKGgnA": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3-1.webp",
+            "caption": "",
+            "heading": "1.000 TUBES SOLD",
+            "text": "",
+            "button_label": "Buy today",
+            "button_link": "shopify:\/\/pages\/buy-now"
+          }
+        },
         "row_8KDGNb": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/row-3.webp",
+            "image": "shopify:\/\/shop_images\/8.webp",
             "caption": "",
-            "heading": "Made with love for the littles",
-            "text": "<p>We understand the importance of gentle care, especially for little ones. That's why our formula uses only the highest quality ingredients, ensuring it's safe and effective for even the most sensitive skin.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "heading": "<strong>FREE SHIPPING<\/strong>",
+            "text": "<p>on order three tubes or mỏe <\/p><p>For all US orders <\/p>",
+            "button_label": "Buy today",
+            "button_link": "shopify:\/\/pages\/buy-now"
           }
         },
         "row_KxMkwG": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/row-4.webp",
+            "image": "shopify:\/\/shop_images\/4.webp",
             "caption": "",
-            "heading": "FREE SHIPPING",
-            "text": "<p>on orders of <em>three<\/em> jars or more<\/p>",
+            "heading": "<strong>Satisfaction<\/strong>",
+            "text": "<p>guaranteed, or your money back!<\/p><p>Risk-free purchase<\/p>",
             "button_label": "Buy today",
-            "button_link": "#"
+            "button_link": "shopify:\/\/pages\/buy-now"
           }
         }
       },
       "block_order": [
+        "row_gKGgnA",
         "row_8KDGNb",
         "row_KxMkwG"
       ],
@@ -142,7 +154,7 @@
         "column_1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/col-1.jpg",
+            "image": "shopify:\/\/shop_images\/9.webp",
             "title": "Secrets from Tropical Forest",
             "text": "<p>Extracts from over 20 tropical plants, rich in a diverse range of vitamins and minerals, help soothe and nourish the skin. The formula's intense hydration locks in moisture, promoting a healthy, hydrated complexion. This innovative approach, inspired by the secrets of the Tropical Forest, helps restore and maintain healthy, balanced skin.<\/p>",
             "link_label": "Real people",
@@ -152,7 +164,7 @@
         "column_2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/col-2.webp",
+            "image": "shopify:\/\/shop_images\/10.webp",
             "title": "Over 20 Tropical Plants",
             "text": "<p>Quickly calms itching, swelling, and redness, while its gentle formula soothes and hydrates dry skin. Offers long-lasting protection against future flare-ups by strengthening the skin's barrier.<\/p>",
             "link_label": "Ingredients",
@@ -177,6 +189,52 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_tz9G4h": {
+      "type": "multirow",
+      "blocks": {
+        "row_JVEYUF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.webp",
+            "caption": "",
+            "heading": "<strong>Made with love for the littles. <\/strong>",
+            "text": "<p>Our commitment to quality starts with carefully sourced, high-grade ingredients. This ensures our cream is gentle enough for all ages while remaining powerful in its ability to soothe and heal.<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/pages\/buy-now"
+          }
+        },
+        "row_kLG3Dd": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.webp",
+            "caption": "",
+            "heading": "<strong>Apply to the eczema-prone skin<\/strong>",
+            "text": "<p>to help calm and moisturize<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/pages\/buy-now"
+          }
+        }
+      },
+      "block_order": [
+        "row_JVEYUF",
+        "row_kLG3Dd"
+      ],
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "heading_size": "h0",
+        "text_style": "subtitle",
+        "button_style": "secondary",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -338,6 +396,7 @@
     "multicolumn_zYLgrm",
     "multirow_Tfae7j",
     "multicolumn_2",
+    "multirow_tz9G4h",
     "featured_product_dGptRF",
     "collapsible_content_VHHdjf",
     "custom_liquid_YCAzLz",
