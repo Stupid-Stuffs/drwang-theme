@@ -37,14 +37,14 @@
             h2 {
                 margin: 0;
                 font-size: 5rem;
-		color: {{section.settings.text_color}};
+		color: {{section.settings.text_color_1}};
             font-weight: bold;
             }
             h3 {
                 margin: 0;
                 font-size: 5rem;
                 font-weight: light;
-		color: {{section.settings.text_color}};
+		color: {{section.settings.text_color_2}};
             }
         }
     }
@@ -58,12 +58,12 @@
             font-size: 5rem;
             font-weight: 700;
             margin-bottom: 1rem;
-            color: white;
+		color: {{section.settings.text_color_2}};
         }
         p {
             font-size: 2rem;
 	    font-family: Georgia Pro, serif;
-	    color: white;
+		color: {{section.settings.text_color_2}};
 	    margin-bottom: 1rem;
         }
     }
@@ -118,9 +118,14 @@
 	    },
 	    {
 	    "type": "color",
-	    "id": "text_color",
-	    "label": "Text Color"
-	}
+	    "id": "text_color_1",
+	    "label": "Text Color 1"
+	    },
+	    {
+	    "type": "color",
+	    "id": "text_color_2",
+	    "label": "Text Color 2"
+	    }
     ],
     "blocks": [
 	{
