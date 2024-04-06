@@ -59,19 +59,15 @@
       "settings": {
       }
     },
-    "custom_liquid": {
-      "type": "custom-liquid",
+    "ingredient-info": {
+      "type": "ingredient-info",
       "settings": {
-        "custom_liquid": "{% render 'ingredient-info' %}",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     }
   },
   "order": [
     "ingredient",
     "slider",
-    "custom_liquid"
+    "ingredient-info"
   ]
 }

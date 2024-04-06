@@ -1,0 +1,53 @@
+{%- style -%}
+    .ingredient-info {
+        padding: 5rem;
+    }
+    .ingredient-info .content {
+        background: #bacae5;
+        padding: 5rem;
+        h2 {
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-weight: 700;
+            tracking: 0.1rem;
+            font-style: normal;
+            font-size: 2rem;
+        }
+    }
+{%- endstyle -%}
+<article class="ingredient-info">
+    <div class="content">
+	    <h2>{{section.settings.title}}</h2>
+	    <span> <i>{{section.settings.subtitle}}</i> </span>
+	    <p>{{section.settings.description}}</p>
+    </div>
+</article>
+
+{%- schema -%}
+{
+    "name": "Ingredient Info",
+    "settings": [
+	{
+	    "type": "text",
+	    "id": "title",
+	    "label": "Title",
+	    "default": "Ingredient Info"
+	},
+	{
+	    "type": "text",
+	    "id": "subtitle",
+	    "label": "Subtitle",
+	    "default": "Subtitle"
+	},
+	{
+	    "type": "textarea",
+	    "id": "description",
+	    "label": "Description",
+	    "default": "Description"
+	}
+    ]
+}
+{%- endschema -%}
