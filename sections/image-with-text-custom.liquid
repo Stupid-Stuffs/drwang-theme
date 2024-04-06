@@ -3,16 +3,25 @@
     .image-with-text-custom {
         .wrapper {
             position: relative;
+	    .overlay {
+	    	position: absolute;
+		width: 100%;
+		height: calc(100% - 8.4px);
+		background: rgba(0,0,0,0.2);
+		z-index: 1;
+		top: 0;
+		left: 0;
+	     }
         }
         margin-top: 5rem;
         img {
             width: 100%;
             height: 450px;
             object-fit: cover;
-            object-position: top;
         }
         div.text-wrapper {
             position: absolute;
+	    z-index: 2;
             top: 50%;
             transform: translateY(-50%);
             color: white;
@@ -47,6 +56,7 @@
             }
         }
         }
+
     @media (min-width: 750px){
         .image-with-text-custom {
            img {
@@ -76,7 +86,7 @@
             height: 600px;
         }
             .image-width-text__text {
-                width: 120ch;
+                width: 150ch;
             }
             div.text-wrapper {
             right: 7rem;
@@ -95,10 +105,12 @@
 {%- endstyle %}
 <div class="image-with-text-custom page-width">
     <div class="wrapper">
+    <div class="overlay"> </div>
       {{ section.settings.image
 	| image_url: width: 1500
 	| image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
       }}
+    
     <div class="text-wrapper">
         <div class="image-width-text__text">
             <h2>{{ section.settings.title }}</h2>
