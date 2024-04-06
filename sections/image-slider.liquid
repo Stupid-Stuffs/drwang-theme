@@ -1,8 +1,59 @@
-<div class="page-width">
-{% render "slider",
-    slides: section.blocks
-%}
-</div>
+{%- style -%}
+	.ingredient-page {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 5rem;
+		.ingredient-image {
+			width: 100%;
+			height: 48rem;
+			overflow: hidden;
+			img {
+			    width: 100%;
+			}
+		}
+		.ingredient-item {
+			display: flex;
+			width: 100%;
+			flex-direction: column;
+			gap: 2rem;
+			align-items: center;
+			.ingredient-text {
+				text-align: center;
+				h2 {
+					font-size: 5rem;
+					font-weight: 700;
+					margin: 0;
+				}
+				h3 {
+					font-size: 3rem;
+					font-weight: 400;
+					margin: 0;
+				}
+				p {
+					font-size: 2rem;
+					font-weight: 300;
+					margin: 0;
+				}
+			}
+		}
+	}
+{%- endstyle -%}
+
+<section class="ingredient-page page-width">
+     {% for block in section.blocks %}
+	 <div class="ingredient-item">
+		<div class="ingredient-image">
+			<img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.heading }}">
+		</div>
+		<div class="ingredient-text">
+			<h2>{{ block.settings.heading }}</h2>
+			<h3>{{ block.settings.subheading }}</h3>
+			<p>{{ block.settings.description }}</p>
+		</div>
+	  </div>
+	{% endfor %}
+</section>
 
 {% schema %}
 {

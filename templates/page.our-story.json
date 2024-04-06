@@ -2,7 +2,6 @@
   "sections": {
     "our-story-page": {
       "type": "our-story-page",
-      "disabled": true,
       "settings": {
       }
     }

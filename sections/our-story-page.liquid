@@ -53,8 +53,8 @@
         padding: 5rem 2rem;
     }
     .section-2 .content {
-        background: #bacae5;
         padding: 5rem;
+	background: {{section.settings.background_color}};
         h2 {
             font-size: 4rem;
             font-weight: 700;
@@ -64,51 +64,73 @@
         p {
             font-weight: 400;
             font-size: 2rem;
+	    font-family: Georgia Pro, serif;
+	    color: white;
+	    margin-bottom: 1rem;
         }
     }
 }
 {%- endstyle %}
 <div class="our-story-page page-width">
     <article class="section-1">
-        <img src="https://healedbytheocean.com/cdn/shop/files/IMG_1588.jpg?v=1694724638&width=620" alt="test"/>
+	    <img src="{{section.settings.image}}" alt="{{section.settings.heading}}"/>
         <div class="text">
-            <h2> Our story </h2>
-            <h3> & founder </h3>
+		<h2> {{section.settings.heading}} </h2>
+		<h3> {{section.settings.subheading}} </h3>
         </div>
     </article>
     <article class="section-2">
         <div class="content">
-            
-            <h2>From struggle to soothing cream creation</h2>
-            <p>
-My name is Jay, the heart and soul behind HealedbytheOcean.com. Ever since I can remember, eczema was my unwelcome shadow. The constant itching and discomfort were things I learned to live with, an uninvited guest that turned every social encounter into an ordeal.
-            </p>
-            <p>
-All throughout my school years, I was the "scratchy kid." Fast forward to my late twenties, I was nearing the end of my rope. The relentless itching, the never-ending search for a cure, the frustration - I was on the brink of surrender.
-            </p>
-            <p>
-Everything changed the day I saw my 5-year-old niece, scratching her delicate skin raw. The thought of her enduring the same isolation and teasing I faced broke my heart.
-            </p>
-            <p>
-In a desperate quest for respite, my wife and I embarked on an impromptu trip to a tropical paradise. On the third day, something miraculous happened. The combination of saltwater and sea moss seemed to alleviate my eczema like nothing ever had. The itching, the flaking, it all seemed to lessen. I found an unexpected solace in the embrace of the ocean.
-            </p>
-            <p>
-Desperate to take this newfound relief home with me, I started researching. I dove into understanding the ocean's magic properties, and after a year of tireless work, "The Ocean Healed My Eczema"™ was born. It was an all-natural soothing cream, my attempt to bottle that magic in a jar.
-            </p>
-            <p>
-It worked wonders, not only for the appearance of my skin but also my niece's. The cream helped ease her incessant scratching, making school less of a daily trial for her. I felt a powerful calling to share this cream with the world.
-            </p>
-            <p>
-And so, here I am. Ready to introduce this cream to the world - a small piece of my heart and a testament to my journey. If you can relate to my story, I invite you to try "The Ocean Healed My Eczema."™ The name might be a mouthful, but it symbolizes a journey that I am immensely proud of.
-            </p>
-            <p>
-My hope is to build a community around the struggles of eczema, to help those who have felt as lost and isolated as I did. Here's to finding relief together. Thank you for joining me on this journey.
-            </p>
-            <p>
-With love,
-Jay
-            </p>
-
+		<h2>{{section.settings.title}}</h2>
+	    {% for block in section.blocks %}
+		    <p>{{ block.settings.text }}</p>
+	    {% endfor %}
         </div>
     </article>
 </div>
+
+{%- schema -%}
+{
+    "name": "Our Story",
+    "settings": [
+	{
+	    "type": "image_picker",
+	    "id": "image",
+	    "label": "Image"
+	},
+	{
+	    "type": "text",
+	    "id": "heading",
+	    "label": "Heading"
+	},
+	{
+	    "type": "text",
+	    "id": "subheading",
+	    "label": "Subheading"
+	},
+	{
+	    "type": "text",
+	    "id": "title",
+	    "label": "Title"
+	},
+	{
+	    "type": "color",
+	    "id": "background_color",
+	    "label": "Background Color"
+	}
+    ],
+    "blocks": [
+	{
+	    "type": "text",
+	    "name": "Text",
+	    "settings": [
+		{
+		    "type": "text",
+		    "id": "text",
+		    "label": "Text"
+		}
+	    ]
+	}
+    ]
+}
+{%- endschema -%}
