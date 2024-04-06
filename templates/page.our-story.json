@@ -60,7 +60,9 @@
         "heading": "",
         "subheading": "",
         "title": "From Desperate Mama to Eczema Fighter - A 10,000km Journey Far From hHme",
-        "background_color": "#3d99b4"
+        "background_color": "#3d99b4",
+        "text_color_1": "",
+        "text_color_2": "#ffffff"
       }
     }
   },
