@@ -137,7 +137,7 @@
 
      {% if product.images.size >= 2 %}
         <a class="swiper-preview" data-fancybox="gallery" href="https://lipsum.app/id/60/1600x1200">
-            <img src="https://lipsum.app/id/60/200x150" width="200" height="150" alt="" />
+		<img src="{{ product.images[1].src | img_url: 'master' }}" />
         </a>
         <div style="display:none">
             {% for image in product.images offset: 1 %}
