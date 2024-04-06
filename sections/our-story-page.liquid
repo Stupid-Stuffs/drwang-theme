@@ -73,7 +73,7 @@
 {%- endstyle %}
 <div class="our-story-page page-width">
     <article class="section-1">
-	    <img src="{{section.settings.image}}" alt="{{section.settings.heading}}"/>
+	{{ section.settings.image | img_url: 'master' | img_tag }}
         <div class="text">
 		<h2> {{section.settings.heading}} </h2>
 		<h3> {{section.settings.subheading}} </h3>
