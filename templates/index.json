@@ -6,28 +6,11 @@
         "slide_ANxH4U": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/post-6.webp",
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/1.png",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_A6F8QD": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-left",
@@ -40,12 +23,11 @@
         }
       },
       "block_order": [
-        "slide_ANxH4U",
-        "slide_A6F8QD"
+        "slide_ANxH4U"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "medium",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
