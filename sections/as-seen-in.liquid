@@ -1,11 +1,74 @@
+{%- style -%}
+	.asi {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+	.asi-wrapper {
+		display: flex;
+		gap: 1rem;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.asi-title {
+		text-align: center;
+		font-size: 3rem;
+		min-width: max-content;
+		font-weight: 700;
+		text-transform: uppercase;
+		color:#233a96; 
+	}
+
+	.asi-images {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 3rem;
+	}
+
+	.asi-image {
+		align-self: center;
+		width: 100%;
+		filter: grayscale(100%) brightness(0.5);
+	}
+	@media (min-width: 750px){
+		.asi {
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+		}
+		.asi-wrapper {
+			gap: 3rem;
+		}
+		.asi-title {
+			font-size: 3rem;
+		}
+		.asi-images {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+	@media (min-width: 1250px){
+		.asi {
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+		}
+		.asi-wrapper {
+			gap: 3rem;
+			flex-direction: row;
+		}
+		.asi-images {
+			grid-template-columns: repeat(5, 1fr);
+		}
+		.asi-title {
+			font-size: 3rem;
+		}
+	}
+
+{%- endstyle -%}
 <article class="asi page-width">
 	<div class="asi-wrapper">
 		<h3 class="asi-title">{{section.settings.title}}</h3>
 		<div class="asi-images">
 			{% for block in section.blocks %}
-				<div class="asi-image">
-					<img src="{{block.settings.image | img_url: 'master'}}" alt="{{block.settings.alt}}">
-				</div>
+				<img class="asi-image" src="{{block.settings.image | img_url: 'master'}}" alt="{{block.settings.alt}}">
 			{% endfor %}
 		</div>
 	</div>
