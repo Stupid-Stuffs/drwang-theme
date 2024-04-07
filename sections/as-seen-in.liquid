@@ -1,0 +1,41 @@
+<article class="asi">
+	<div class="asi-wrapper">
+		<h3 class="asi-title">{{section.settings.title}}</h3>
+		<div class="asi-images">
+			{% for block in section.blocks %}
+				{% block.settings.image.image | img_tag: 'master' | alt: block.settings.image.alt %}
+			{% endfor %}
+		</div>
+	</div>
+</article>
+
+{% schema %}
+{
+	"name": "ASI",
+	"settings": [
+		{
+			"type": "text",
+			"id": "title",
+			"label": "Title"
+		}
+	],
+	"blocks": [
+		{
+			"type": "image",
+			"name": "Image",
+			"settings": [
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image"
+					},
+					{
+					 "type": "text",
+					 "id": "alt",
+					 "label": "Alt Text"
+					}
+			]
+		}
+	]
+}
+{% endschema %}

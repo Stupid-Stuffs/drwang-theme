@@ -243,6 +243,9 @@
         "padding_bottom": 36
       }
     },
+    "as_seen_in": {
+	"type": "as-seen-in"
+    },
     "custom_liquid_RWErQj": {
       "type": "custom-liquid",
       "custom_css": [
@@ -393,6 +396,7 @@
     "multirow_Tfae7j",
     "multicolumn_2",
     "multirow_tz9G4h",
+    "as_seen_in",
     "custom_liquid_RWErQj",
     "featured_product_dGptRF",
     "collapsible_content_VHHdjf",
