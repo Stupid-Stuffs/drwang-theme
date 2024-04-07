@@ -229,10 +229,42 @@
             "image": "shopify:\/\/shop_images\/USA_Today__2020-01-29.svg",
             "alt": "usa today"
           }
+        },
+        "image_ihDwrz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/USA_Today__2020-01-29.svg",
+            "alt": ""
+          }
+        },
+        "image_RdV6Xp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/USA_Today__2020-01-29.svg",
+            "alt": ""
+          }
+        },
+        "image_nh4b6M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/USA_Today__2020-01-29.svg",
+            "alt": ""
+          }
+        },
+        "image_4cQXtB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/USA_Today__2020-01-29.svg",
+            "alt": ""
+          }
         }
       },
       "block_order": [
-        "image_jyc3fD"
+        "image_jyc3fD",
+        "image_ihDwrz",
+        "image_RdV6Xp",
+        "image_nh4b6M",
+        "image_4cQXtB"
       ],
       "settings": {
         "title": "As seen in"
