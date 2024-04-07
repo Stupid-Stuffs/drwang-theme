@@ -221,7 +221,10 @@
       }
     },
     "as_seen_in": {
-	"type": "as-seen-in"
+	"type": "as-seen-in",
+	"settings": {
+		"title": "As seen in"
+	}
     },
     "custom_liquid_RWErQj": {
       "type": "custom-liquid",
