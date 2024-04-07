@@ -3,7 +3,9 @@
 		<h3 class="asi-title">{{section.settings.title}}</h3>
 		<div class="asi-images">
 			{% for block in section.blocks %}
-				{% block.settings.image.image | img_tag: 'master' | alt: block.settings.image.alt %}
+				<div class="asi-image">
+					<img src="{{block.settings.image | img_url: 'master'}}" alt="{{block.settings.alt}}">
+				</div>
 			{% endfor %}
 		</div>
 	</div>
