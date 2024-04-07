@@ -6,37 +6,73 @@
 		gap: 5rem;
 		.ingredient-image {
 			width: 100%;
-			height: 48rem;
+			height: 25rem;
 			overflow: hidden;
 			img {
 			    width: 100%;
+			    height: 100%;
+			    object-fit: cover;
+			    object-position: center;
 			}
 		}
 		.ingredient-item {
 			display: flex;
 			width: 100%;
 			flex-direction: column;
-			gap: 2rem;
+			gap: 1rem;
 			align-items: center;
 			.ingredient-text {
 				text-align: center;
 				h2 {
-					font-size: 5rem;
+					font-size: 3.75rem;
 					font-weight: 700;
 					margin: 0;
 				}
 				h3 {
-					font-size: 3rem;
+					font-size: 2rem;
 					font-weight: 400;
 					margin: 0;
 				}
 				p {
 					font-size: 2rem;
 					font-weight: 300;
+					font-family: Georgia Pro, serif;
+					text-align: justify;
 					margin: 0;
 				}
 			}
 		}
+	}
+
+	@media(min-width: 750px){
+		.ingredient-page {
+			.ingredient-image {
+				height: 48rem;
+			}
+			.ingredient-item {
+				gap: 2rem;
+				.ingredient-text {
+					h2 {
+						font-size: 5rem;
+						font-weight: 700;
+						margin: 0;
+					}
+					h3 {
+						font-size: 3rem;
+						font-weight: 400;
+						margin: 0;
+					}
+					p {
+						font-size: 2rem;
+						font-weight: 300;
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+
+	@media(min-width: 1250px){
 	}
 {%- endstyle -%}
 

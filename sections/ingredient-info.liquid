@@ -1,12 +1,12 @@
 {%- style -%}
     .ingredient-info {
-        padding: 5rem;
+        padding: 3rem 0;
     }
     .ingredient-info .content {
     background: {{section.settings.background}};
-        padding: 5rem;
+        padding: 2rem;
         h2 {
-            font-size: 4rem;
+            font-size: 2.75rem;
             font-weight: 700;
             margin-bottom: 1rem;
         }
@@ -14,8 +14,23 @@
             font-weight: 700;
             tracking: 0.1rem;
             font-style: normal;
-            font-size: 2rem;
+	    fotn-family: Georgia Pro, serif;
+            font-size: 1.75rem;
         }
+    }
+    @media (min-width: 750px){
+    .ingredient-info {
+    padding: 5rem;
+    }
+    	.ingredient-info .content {
+	    padding: 5rem;
+	    h2 {
+		font-size: 4rem;
+	    }
+	    p {
+		font-size: 2rem;
+	    }
+	
     }
 {%- endstyle -%}
 <article class="ingredient-info page-width">
