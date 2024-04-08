@@ -220,56 +220,6 @@
         "padding_bottom": 36
       }
     },
-    "as_seen_in": {
-      "type": "as-seen-in",
-      "blocks": {
-        "image_jyc3fD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/USA_Today__2020-01-29.svg",
-            "alt": "usa today"
-          }
-        },
-        "image_ihDwrz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/USA_Today__2020-01-29.svg",
-            "alt": ""
-          }
-        },
-        "image_RdV6Xp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/USA_Today__2020-01-29.svg",
-            "alt": ""
-          }
-        },
-        "image_nh4b6M": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/USA_Today__2020-01-29.svg",
-            "alt": ""
-          }
-        },
-        "image_4cQXtB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/USA_Today__2020-01-29.svg",
-            "alt": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_jyc3fD",
-        "image_ihDwrz",
-        "image_RdV6Xp",
-        "image_nh4b6M",
-        "image_4cQXtB"
-      ],
-      "settings": {
-        "title": "As seen in"
-      }
-    },
     "custom_liquid_RWErQj": {
       "type": "custom-liquid",
       "custom_css": [
@@ -352,6 +302,56 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "as_seen_in": {
+      "type": "as-seen-in",
+      "blocks": {
+        "image_jyc3fD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Refinery29-logo.png",
+            "alt": "usa today"
+          }
+        },
+        "image_ihDwrz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CNN_svg.png",
+            "alt": ""
+          }
+        },
+        "image_RdV6Xp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Forbes-logo.png",
+            "alt": ""
+          }
+        },
+        "image_nh4b6M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/newsweek-assets1.png",
+            "alt": ""
+          }
+        },
+        "image_4cQXtB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/USA_Today__2020-01-29.svg",
+            "alt": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jyc3fD",
+        "image_ihDwrz",
+        "image_RdV6Xp",
+        "image_nh4b6M",
+        "image_4cQXtB"
+      ],
+      "settings": {
+        "title": "As seen in"
       }
     },
     "collapsible_content_VHHdjf": {
