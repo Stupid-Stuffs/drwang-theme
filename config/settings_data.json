@@ -395,5 +395,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".oke-reviewCarousel {max-width: 1600px;}"
+    ]
   }
 }
