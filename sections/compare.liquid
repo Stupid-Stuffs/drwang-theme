@@ -13,6 +13,7 @@
 	width: 100%;
     img {
 	width: 100%;
+	max-width: 100rem;
     }
 }
 }
@@ -21,6 +22,11 @@
 	.compare {
 		.compare-title {
 			font-size: 4rem;
+		}
+		.compare-image {
+			img {
+			  max-width: 100%;
+			}
 		}
 	}
 }
@@ -37,7 +43,9 @@
 	<h2 class="compare-title">{{section.settings.title}}</h2>
 	<div class="compare-image">
 		{% if section.settings.image %}
-			<img src="{{ section.settings.image | img_url: 'master' }}" alt="{{ section.settings.alt }}">
+			<picture>
+				<source srcset="{{ section.settings.image2 | img_url: 'master' }}" media="(min-width: 750px)">
+				<img src="{{ section.settings.image1 | img_url: 'master' }}" alt="{{ section.settings.alt }}">
 		{% endif %}
 	</div>
 </article>
@@ -54,8 +62,13 @@
     },
     {
       "type": "image_picker",
-      "id": "image",
-      "label": "Image"
+      "id": "image1",
+      "label": "Image First"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image Second"
     },
     {
       "type": "text",
