@@ -1,7 +1,45 @@
-<article class="page-width">
-	<h2>{{section.settings.title}}</h2>
-	<div>
-	     <img src="{{section.settings.image}}" alt="{{section.settings.alt}}">
+{%- style -%}
+.compare {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+.compare-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #233a96;
+	text-transform: uppercase;
+}
+.compare-image {
+    img {
+	width: 100%;
+	max-width: 100rem;
+	margin: 0 auto;
+	}
+}
+}
+
+@media (min-width: 750px) {
+	.compare {
+		.compare-title {
+			font-size: 4rem;
+		}
+	}
+}
+@media (min-width: 1250px) {
+	.compare {
+		.compare-title {
+			font-size: 5rem;
+		}
+	}
+}
+{%- endstyle -%}
+
+<article class="page-width compare">
+	<h2 class="compare-title">{{section.settings.title}}</h2>
+	<div class="compare-image">
+		{% if section.settings.image %}
+			<img src="{{ section.settings.image | img_url: 'master' }}" alt="{{ section.settings.alt }}">
+		{% endif %}
 	</div>
 </article>
 
