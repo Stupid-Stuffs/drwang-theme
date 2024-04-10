@@ -84,7 +84,7 @@
             "button_label": "Buy today",
             "button_link": "shopify:\/\/pages\/buy-now"
           }
-       }
+        }
       },
       "block_order": [
         "row_gKGgnA"
@@ -108,8 +108,8 @@
     "compare": {
       "type": "compare",
       "settings": {
-        "title": "Why you should choose us?",
-        "image": "shopify:\/\/shop_images\/cover_3.psd_2.webp",
+        "title": "",
+        "image": "shopify:\/\/shop_images\/cover_3.psd_3_db11a94c-f0fa-434f-baa9-873bceb79643.webp",
         "alt": "Why you should choose us?"
       }
     },
