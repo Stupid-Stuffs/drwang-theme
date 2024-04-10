@@ -129,14 +129,6 @@
         "padding_bottom": 36
       }
     },
-    "compare": {
-	    "type": "compare",
-	    "settings": {
-	      "title": " Why you should choose us?",
-	      "image": "shopify:\/\/shop_images\/compare.jpg",
-	      "alt": "compare with other brands"
-	    }
-    },
     "multicolumn_2": {
       "type": "multicolumn",
       "blocks": {
@@ -441,6 +433,14 @@
         "show_view_all": true,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "compare": {
+      "type": "compare",
+      "settings": {
+        "title": "Why you should choose us?",
+        "image": "shopify:\/\/shop_images\/Dr._Wang_vs_Other_Brands.png",
+        "alt": "Why you should choose us?"
       }
     }
   },
