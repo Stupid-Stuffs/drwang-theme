@@ -105,10 +105,18 @@
         "padding_bottom": 36
       }
     },
-    "multirow_3": {
+    "compare": {
+      "type": "compare",
+      "settings": {
+        "title": "Why you should choose us?",
+        "image": "shopify:\/\/shop_images\/Dr._Wang_vs_Other_Brands.png",
+        "alt": "Why you should choose us?"
+      }
+    },
+    "multirow_Bc9bVD": {
       "type": "multirow",
       "blocks": {
-        "row_8KDGNb": {
+        "row_bVaCAe": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/3-2.webp",
@@ -119,7 +127,7 @@
             "button_link": "shopify:\/\/pages\/buy-now"
           }
         },
-        "row_KxMkwG": {
+        "row_YyYUBy": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-linda-prebreza-286951.jpg",
@@ -132,8 +140,8 @@
         }
       },
       "block_order": [
-        "row_8KDGNb",
-        "row_KxMkwG"
+        "row_bVaCAe",
+        "row_YyYUBy"
       ],
       "settings": {
         "image_height": "large",
@@ -456,14 +464,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "compare": {
-      "type": "compare",
-      "settings": {
-        "title": "Why you should choose us?",
-        "image": "shopify:\/\/shop_images\/Dr._Wang_vs_Other_Brands.png",
-        "alt": "Why you should choose us?"
-      }
     }
   },
   "order": [
@@ -472,7 +472,7 @@
     "multicolumn_zYLgrm",
     "multirow_Tfae7j",
     "compare",
-    "multirow_3",
+    "multirow_Bc9bVD",
     "multicolumn_2",
     "multirow_tz9G4h",
     "custom_liquid_RWErQj",
