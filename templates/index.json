@@ -84,7 +84,38 @@
             "button_label": "Buy today",
             "button_link": "shopify:\/\/pages\/buy-now"
           }
-        },
+       }
+      },
+      "block_order": [
+        "row_gKGgnA"
+      ],
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "heading_size": "h0",
+        "text_style": "subtitle",
+        "button_style": "secondary",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "compare": {
+      "type": "compare",
+      "settings": {
+        "title": "Why you should choose us?",
+        "image": "shopify:\/\/shop_images\/cover_3.psd_2.webp",
+        "alt": "Why you should choose us?"
+      }
+    },
+    "multirow_Bc9bVD": {
+      "type": "multirow",
+      "blocks": {
         "row_bVaCAe": {
           "type": "row",
           "settings": {
