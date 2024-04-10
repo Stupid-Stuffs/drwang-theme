@@ -113,7 +113,7 @@
         "alt": "Why you should choose us?"
       }
     },
-    "multirow_Bc9bVD": {
+    "multirow_Tfae7j": {
       "type": "multirow",
       "blocks": {
         "row_bVaCAe": {
@@ -140,7 +140,6 @@
         }
       },
       "block_order": [
-        "row_gKGgnA",
         "row_bVaCAe",
         "row_YyYUBy"
       ],
@@ -471,9 +470,9 @@
     "slideshow_Ejxijn",
     "image-with-text",
     "multicolumn_zYLgrm",
-    "multirow_Tfae7j",
-    "compare",
     "multirow_Bc9bVD",
+    "compare",
+    "multirow_Tfae7j",
     "multicolumn_2",
     "multirow_tz9G4h",
     "custom_liquid_RWErQj",
