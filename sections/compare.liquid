@@ -1,0 +1,31 @@
+<article class="page-width">
+	<h2>{{section.settings.title}}</h2>
+	<div>
+	     <img src="{{section.settings.image}}" alt="{{section.settings.alt}}">
+	</div>
+</article>
+
+{%- schema -%}
+{
+  "name": "compare",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "alt",
+      "label": "Alt",
+      "default": "Alt"
+    }
+  ]
+}
+{%- endschema -%}

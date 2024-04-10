@@ -129,6 +129,14 @@
         "padding_bottom": 36
       }
     },
+    "compare": {
+	    "type": "compare",
+	    "settings": {
+	      "title": " Why you should choose us?",
+	      "image": "shopify:\/\/shop_images\/compare.jpg",
+	      "alt": "compare with other brands"
+	    }
+    },
     "multicolumn_2": {
       "type": "multicolumn",
       "blocks": {
@@ -448,6 +456,7 @@
     "1712706264a129f451",
     "as_seen_in",
     "collapsible_content_VHHdjf",
-    "featured_blog_BqAM4L"
+    "featured_blog_BqAM4L",
+    "compare"
   ]
 }
