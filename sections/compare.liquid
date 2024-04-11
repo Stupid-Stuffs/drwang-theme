@@ -42,7 +42,7 @@
 <article class="page-width compare">
 	<h2 class="compare-title">{{section.settings.title}}</h2>
 	<div class="compare-image">
-		{% if section.settings.image %}
+		{% if section.settings.image1 %}
 			<picture>
 				<source srcset="{{ section.settings.image2 | img_url: 'master' }}" media="(min-width: 750px)">
 				<img src="{{ section.settings.image1 | img_url: 'master' }}" alt="{{ section.settings.alt }}">
